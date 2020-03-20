@@ -1,0 +1,19 @@
+
+html, body {
+    height: 100%;
+  }
+  
+  body {
+    margin: 0;
+    display: flex;
+  
+    /* This centers our sketch horizontally. */
+    justify-content: center;
+  
+    /* This centers our sketch vertically. */
+    align-items: center;
+
+    background: #a73737; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a73737, #7a2828); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a73737, #7a2828);
+  }
